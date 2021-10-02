@@ -1,8 +1,6 @@
 @media only screen and (min-width: 601px) {
 
-.icon {
-    color: peru;
-}
+    
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
@@ -66,6 +64,8 @@ h2 {
 }
 
 } /*end media query
+
+
 
 
 

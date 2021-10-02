@@ -69,31 +69,3 @@ h2 {
 
 } /*end media query
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-html {
-    -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
-
-}
-
-* {
-    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
