@@ -1,4 +1,4 @@
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 551px) {
 
 
 body {
@@ -52,7 +52,9 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 64px;
     font-weight: 700;
+    text-decoration: none;
     color: white;
+
     text-align: center;
 }
 .banner {
