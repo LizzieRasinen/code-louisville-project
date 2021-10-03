@@ -91,7 +91,7 @@ body {
 body  {
     background-image: url("/images/pexels-suzy-hazelwood-1232131.jpg");
     background-color:#000;
-    background-position: center;
+    background-position: auto;
     background-repeat: no-repeat;
     background-size: auto;
 }

@@ -13,8 +13,9 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     font-weight: 300;
-    background-image:none;
+    background-image: none;
     text-align: center;
+    color: white;
 }
 nav {
     background: #000;
@@ -31,11 +32,11 @@ h1 {
 }
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-size: 80px;
+    font-size: 30px;
     font-weight: 700;
     color: white;
     text-align: center;
-}
+    }
 
  /*.row {
         background-image: url("/images/thread.jpg");
@@ -47,7 +48,7 @@ h2 {
         position: relative;
       }
 */
-.row {
+.banner {
     background-image: url("/images/thread.jpg");
     filter: opacity(85%);
     background-color:rgb(113, 153, 165);
@@ -56,6 +57,29 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
+.row 2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+   flex-basis: 25%;
+   flex-wrap: nowrap;
+}  
+.column {
+    display: flex;
+    flex-grow: 1;
+    height: 100px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+  }
+}
+.column + .column {
+    margin-left: 2%;
+}
+
+
 }
 }      
  /*.hero-text {

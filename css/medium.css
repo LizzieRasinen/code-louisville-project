@@ -1,11 +1,12 @@
 @media only screen and (min-width: 601px) {
 
-    
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     font-weight: 300;
     text-align: center;
+    color: white;
     }
     /* Found code on youtube vid, still have issues with alignment  */
 nav {
@@ -54,7 +55,7 @@ h2 {
     color: white;
     text-align: center;
 }
-.row {
+.banner {
     background-image: url("/images/dressform1.jpg");
     background-color:rgb(113, 153, 165);
     background-position: auto;
