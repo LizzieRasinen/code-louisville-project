@@ -1,13 +1,17 @@
 @media only screen and (min-width: 900px) {
 
-ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-items: space-around;
-    justify-content: flex-end;
-    padding: 14px 16px;
-    margin: 1rem;
+    nav .mainMenu li a{
+        display: inline-block;
+        padding: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #F9c307;
+        font-size: 1.5rem;
+   
+
+/*ul.mainMenu {
+    padding 5px 10px;
+  */
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -15,19 +19,24 @@ body {
     font-weight: 300;
     background-image: none;
     text-align: center;
-    color: white;
+    color: #F9c307;
 }
 nav {
-    background: #000;
-    color: #fff;
+    background: #1e1a1a;
+    color: #f9c307;
     display: flex;
     justify-content: space-between;
 }
+nav .mainMenu li a:hover{
+    background: none;
+    color: #fbdb6b;
+    font-size: 1.6rem;
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 120px;
     font-weight: 700;
-    color: white;
+    color: #F9c307;
     text-align: center;
 }
 h2 {
@@ -35,7 +44,7 @@ h2 {
     font-size: 30px;
     font-weight: 700;
     text-decoration: none;
-    color: white;
+    color: #F9c307;
     text-align: center;
     }
 

@@ -1,0 +1,163 @@
+@media only screen and (max-width: 550px) {
+
+
+    html {
+        -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+    
+    }
+    
+    * {
+        -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    
+    }
+    
+    /* Found code on youtube vid, still have issues with black box at top of screen when it's closed  */
+    
+    
+    nav {
+        background: #1e1a1a;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .mainMenu {
+        display: flex;
+        list-style: none;
+    }
+    nav .mainMenu li a{
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    nav .mainMenu li a:hover{
+        background: rgb(113, 153, 165)
+    }    
+    nav .openMenu {
+        font-size: 2rem;
+        margin: 20px;
+        display: none;
+        cursor: pointer;
+    }
+    nav .mainMenu .closeMenu , .icons i {
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+    }
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(129, 123, 123);
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(113, 153, 165);
+        font-size: 1.6rem;
+    }
+    .icons i{
+        display: inline-block;
+        padding: 12px;
+    }
+    
+    .row1 {
+        /*background-image: url("/images/thread.jpg");
+        background-size: auto;
+    */    display: flex;
+        color: white;
+        padding: 2.5rem 1.5rem 1.5rem 1.5rem; 
+        text-align: center;
+    }
+    .row2 {
+        display:none;
+    
+    
+    }
+    .test {
+        display: flex;
+        background-image: url("/images/pexels-pixabay-461035.jpg");
+        background-size: auto;
+        repeat: none;
+    }
+    .row3 {
+        display: flex;
+        color: white;
+        padding: .25rem 1rem .25rem 1rem;
+    }
+    .row4 {
+        display: flex;
+        text-decoration: none;
+        color: white;
+        padding: .25rem 1rem .25rem 1rem;
+    }
+    img {
+        object-fit: contain;
+    }
+    
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        color: white;
+        /*padding: 1rem; */
+    }
+    /*body  {
+       background-image: url("/images/pexels-suzy-hazelwood-1232131.jpg"); 
+        background-color:rgb(113, 153, 165);
+        background-position: auto;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    */
+    body {
+        background-color: #393232;
+    }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 34px;
+        font-weight: 300;
+        color: #F9c307;
+        background-color: #393232;
+        padding: 15px;
+        border-color: #F9c307;
+        margin: 50px;
+        border: 3px double #F9c307;
+        
+    }
+    h2 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 38px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+    h3 { 
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    } /*end media query

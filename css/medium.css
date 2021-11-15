@@ -10,8 +10,8 @@ body {
     }
     /* Found code on youtube vid, still have issues with alignment  */
 nav {
-    background: #000;
-    color: #fff;
+    background: ##1e1a1a;
+    color: #F9c307;
     display: flex;
     justify-content: space-between;
 }
@@ -24,7 +24,7 @@ nav .mainMenu li a{
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #F9c307;
     font-size: 1.5rem;
 }
 nav .mainMenu li a:hover{
@@ -45,7 +45,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 80px;
     font-weight: 700;
-    color: white;
+    color: #F9c307;
     text-align: center;
 }
 h2 {
@@ -53,7 +53,7 @@ h2 {
     font-size: 64px;
     font-weight: 700;
     text-decoration: none;
-    color: white;
+    color: #F9c307;
 
     text-align: center;
 }
