@@ -108,7 +108,7 @@ ul {
     display: flex;
     background-image: url("/images/pexels-pixabay-461035.jpg");
     background-size: auto;
-    repeat: none;
+
 }
 .row3 {
     display: flex;
@@ -169,4 +169,5 @@ h3 {
     font-weight: 300;
     color: #fbdb6b;
     text-align: center;
-} /*end media query
+}}
+ /*end media query */
