@@ -12,7 +12,6 @@ body {
 nav {
     background: ##1e1a1a;
     color: #F9c307;
-    position: fixed;
     display: flex;
     justify-content: space-between;
 }
