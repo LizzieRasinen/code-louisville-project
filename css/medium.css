@@ -14,11 +14,11 @@ nav {
     color: #F9c307;
     display: flex;
     justify-content: space-between;
-}
+    }
 nav .mainMenu {
     display: flex;
     list-style: none;
-}
+    }
 nav .mainMenu li a{
     display: inline-block;
     padding: 15px;
@@ -26,37 +26,36 @@ nav .mainMenu li a{
     text-transform: uppercase;
     color: #F9c307;
     font-size: 1.5rem;
-}
+    }
 nav .mainMenu li a:hover{
     background: rgb(113, 153, 165);
-}    
+    }    
 nav .openMenu {
     font-size: 2rem;
     margin: 20px;
     display: none;
     cursor: pointer;
-}
+    }
 nav .mainMenu .closeMenu , .icons i {
     font-size: 2rem;
     display: none;
     cursor: pointer;
-}
+    }
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 80px;
     font-weight: 700;
     color: #F9c307;
     text-align: center;
-}
+    }
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 64px;
     font-weight: 700;
     text-decoration: none;
     color: #F9c307;
-
     text-align: center;
-}
+    }
 .banner {
     background-image: url("/images/dressform1.jpg");
     background-color:rgb(113, 153, 165);
@@ -64,7 +63,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: auto;
     position: relative;
-}
+    }
 .hero-image {
     background-image: url("/images/thread.jpg");
     filter: opacity(85%);
@@ -74,18 +73,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
-} /*end media query
-
+    }}
 
 
-
-
-
-
-
-
-
+    /*end media query
 
 html {
     -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;

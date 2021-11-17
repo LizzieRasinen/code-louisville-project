@@ -7,12 +7,11 @@
         text-transform: uppercase;
         color: #F9c307;
         font-size: 1.5rem;
-   
+    }
 
 /*ul.mainMenu {
     padding 5px 10px;
   */
-}
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
@@ -20,25 +19,25 @@ body {
     background-image: none;
     text-align: center;
     color: #F9c307;
-}
+    }
 nav {
     background: #1e1a1a;
     color: #f9c307;
     display: flex;
     justify-content: space-between;
-}
+    }
 nav .mainMenu li a:hover{
     background: none;
     color: #fbdb6b;
     font-size: 1.6rem;
-
+    }
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 120px;
     font-weight: 700;
     color: #F9c307;
     text-align: center;
-}
+    }
 h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -67,31 +66,26 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
-.row 2{
+    }
+.row2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-   flex-basis: 25%;
-   flex-wrap: nowrap;
-}  
+    flex-basis: 25%;
+    flex-wrap: nowrap;
+    }  
 .column {
     display: flex;
     flex-grow: 1;
     height: 100px;
     flex-direction: row;
     flex-wrap: nowrap;
-   
-  }
-}
+    }
 .column + .column {
     margin-left: 2%;
-}
-
-
-}
-}      
+  }}
+  
  /*.hero-text {
         text-align: center;
         position: absolute;
