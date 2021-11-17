@@ -12,6 +12,7 @@ body {
 nav {
     background: ##1e1a1a;
     color: #F9c307;
+    position: fixed;
     display: flex;
     justify-content: space-between;
 }
@@ -65,6 +66,15 @@ h2 {
     background-size: auto;
     position: relative;
 }
+.hero-image {
+    background-image: url("/images/thread.jpg");
+    filter: opacity(85%);
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
 } /*end media query
 
