@@ -78,6 +78,14 @@ h2 {
     flex-basis: 45%;
     flex-wrap: nowrap;
     }  
+.row5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-basis: 45%;
+    flex-wrap: nowrap;
+    }  
 .column {
     display: flex;
     flex-grow: 1;
