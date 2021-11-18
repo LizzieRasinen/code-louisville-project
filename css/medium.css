@@ -28,7 +28,7 @@ nav .mainMenu li a{
     font-size: 1.5rem;
     }
 nav .mainMenu li a:hover{
-    background: rgb(113, 153, 165);
+    background: #fbdb6b;
     }    
 nav .openMenu {
     font-size: 2rem;
@@ -58,7 +58,7 @@ h2 {
     }
 .banner {
     background-image: url("/images/dressform1.jpg");
-    background-color:rgb(113, 153, 165);
+    background-color:#1e1a1a;
     background-position: auto;
     background-repeat: no-repeat;
     background-size: auto;

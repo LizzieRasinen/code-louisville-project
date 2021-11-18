@@ -2,7 +2,7 @@
 
     nav .mainMenu li a{
         display: inline-block;
-        padding: 20px;
+        padding: 5px;
         text-decoration: none;
         text-transform: uppercase;
         color: #F9c307;
@@ -60,19 +60,22 @@ h2 {
 .banner {
     background-image: url("/images/thread.jpg");
     filter: opacity(85%);
-    background-color:rgb(113, 153, 165);
+    background-color:#1e1a1a;
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     }
+.small1 {
+    display: none;
+    }
 .row2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    flex-basis: 25%;
+    flex-basis: 45%;
     flex-wrap: nowrap;
     }  
 .column {
@@ -83,7 +86,7 @@ h2 {
     flex-wrap: nowrap;
     }
 .column + .column {
-    margin-left: 2%;
+    margin-left: 10%;
   }}
   
  /*.hero-text {
