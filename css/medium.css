@@ -6,7 +6,7 @@ body {
     font-size: 32px;
     font-weight: 300;
     text-align: center;
-    color: white;
+    color: #F9c307;
     }
 
 nav {
@@ -47,18 +47,20 @@ h1 {
     font-weight: 700;
     color: #F9c307;
     text-align: center;
+    padding: 20px;
     }
-h2 {
+h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 64px;
+    font-size: 35px;
     font-weight: 700;
     text-decoration: none;
     color: #F9c307;
     text-align: center;
     }
+
 .banner {
-    background-image: url("/images/dressform1.jpg");
-    background-color:#1e1a1a;
+   /* background-image: url("/images/dressform1.jpg");*/
+    background-color:#393232;
     background-position: auto;
     background-repeat: no-repeat;
     background-size: auto;
@@ -66,16 +68,20 @@ h2 {
     }
 .hero-image {
     background-image: url("/images/thread.jpg");
-    filter: opacity(85%);
+    /*filter: opacity(85%);*/
     background-color: #cccccc;
-    height: 600px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     }
-
-
+.row3 {
+    display: none;
+}
+.h3 {
+    display: none;
+}
     /*end media query
 
 html {
