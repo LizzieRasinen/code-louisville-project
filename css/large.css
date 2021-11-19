@@ -76,11 +76,12 @@ h2 {
     flex-grow: 2;
     height: 100px;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin: 25px;
     }
-.column + .column {
+/*.column + .column {
     margin-left: 10%;
-  }
+  }*/
 .row4 {
     display: none;
 }
