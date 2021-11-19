@@ -100,26 +100,26 @@ ul {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-}
-.row2 {
-    display:none;
 
-
+} 
+.row3 {
+    display: none;
 }
+.row5 {
+    display: none;
+}
+.row6 {
+    display: none;
+}
+/*.row4 {
+    display: flex;
+}*/
+
 .test {
     display: flex;
     background-image: url("/images/pexels-pixabay-461035.jpg");
     background-size: auto;
 
-}
-.row3 {
-    display:none;
-}
-.row7 {
-    display: flex;
-    text-decoration: none;
-    color: #fbdb6b;
-    padding: .25rem 1rem .25rem 1rem;
 }
 img {
     object-fit: contain;
