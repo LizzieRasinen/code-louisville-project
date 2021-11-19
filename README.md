@@ -9,5 +9,5 @@ Requirements:
 Mobile, tablet and computer screen each have a slightly different layout and nav bar.
 Have the minimum of 5 commits in Github.
 README file
-Java Script being used to hide/show navigation info for hamburger icon.
-Flexbox to rearrange for computer screen.
+Java Script: Show/Hide navigation for hamburger nav icon for mobile first.
+CSS: Flexbox to rearrange for computer screen and navbar changes for mobile first

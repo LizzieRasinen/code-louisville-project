@@ -1,4 +1,4 @@
-@media only screen and (min-width: 551px) {
+@media only screen and (min-width: 751px) {
 
 
 body {
@@ -80,7 +80,8 @@ h2{
     display: none;
 }
 .h3 {
-    display: none;
+    display: flex;
+    flex: column;
 }
     /*end media query
 
